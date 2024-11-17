@@ -1,0 +1,160 @@
+.left-sidebar{
+    
+    width: 150px;
+    display: flex;
+    position: fixed;
+    background-color: white;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    border: solid;
+    border-width: 1px;
+    border-color: rgb(153, 153, 153);
+    border-left: none;
+    border-top: none;
+    border-bottom: none;
+   
+}
+.twitter-logo-sidebar{
+    display: flex;
+    position: fixed;
+    left: 93px;  
+}
+.twitter-logo{
+    display: flex;
+    width: 28px;
+    height: 25px;
+    margin-top: 12px;
+    right: 0;
+    
+}
+.home-icon{
+   
+    width: 34px;
+ 
+    position: relative;
+}
+.search-icon{
+    
+    width: 23px;
+    position: relative;
+    
+}
+.bell-icon{
+    width: 23px;
+    
+    position: relative;
+}
+.email-icon{
+    width: 25px;
+    
+}
+.check-box-icon{
+    width: 25px;
+    
+}
+.group-icon{
+width: 23px;
+
+}
+.user-icon{
+width: 23px;
+ 
+}
+.more-icon{
+width: 23px;
+
+}
+.post-icon{
+width: 40px;
+
+}
+
+.left-sidebar-icons{
+    
+    margin-top: 60px;
+    display: flex;
+    position: fixed;
+    flex-direction: column;
+    left: 90px;
+    
+}
+.middle-icons-sidebar{
+    display: flex;
+    position: fixed;
+    flex-direction: column;
+margin-top: 50px;
+left: 95px;
+}
+.middle-icons-plus-sidebar{
+    display: flex;
+    position: fixed;
+    flex-direction: column;
+margin-top: 50px;
+left: 90px; 
+}
+
+.my-profile{
+    display: flex;
+    position: fixed;
+    bottom: 30px;
+    
+}
+.my-profile-icon{
+    width: 40px;
+    border-radius: 20px;
+}
+
+@media(max-width:700px){
+    .right-sidebar{
+        grid-template-columns: 1fr 1fr;
+    }
+}
+
+.hover-home {
+    display: flex;
+    position: absolute;
+    top: 40px;
+    left: -10px;
+    background-color: rgb(181, 181, 181);
+    padding: 5px 5px 5px 5px ;
+    border-radius: 5px;
+    opacity: 0;
+    pointer-events: none;
+    transition: opacity 0.20s;
+
+
+}
+.hover:hover .hover-home{
+    opacity: 1;
+}
+.search-hover{
+    display: flex;
+    position: absolute;
+    top: 30px;
+    left: -10px;
+    background-color: rgb(181, 181, 181);
+    padding: 5px 5px 5px 5px ;
+    border-radius: 5px;
+    opacity: 0;
+    pointer-events: none;
+    transition: opacity 0.20s;
+}
+.hover:hover .search-hover{
+    opacity: 1;
+}
+.notifications-hover{
+    display: flex;
+    position: absolute;
+    top: 30px;
+    left: -40px;
+    background-color: rgb(181, 181, 181);
+    padding: 5px 5px 5px 5px ;
+    border-radius: 5px;
+    opacity: 0;
+    pointer-events: none;
+    transition: opacity 0.20s;
+}
+.hover:hover .notifications-hover{
+    opacity: 1;
+}

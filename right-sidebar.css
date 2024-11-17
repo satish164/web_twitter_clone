@@ -1,0 +1,139 @@
+.right-sidebar{
+    z-index: 200;
+    display: flex;
+    position: fixed;
+    left: 800px;
+    right: 0;
+    top: 0;
+    height: 58px;
+    background-color: white;
+}
+.search-bar{
+    margin: 5px 0px 0px 0px;
+    height: 40px;
+    margin-left: 30px;
+    width: 350px;
+    border-radius: 30px;
+    border: none;
+    font-size: 17px;
+    background-color: rgb(245, 245, 245);
+}
+.third-column{
+    margin-top: 70px;
+    display: flex;
+    flex-direction: column;
+    width: 330px;
+    margin-left: 825px;
+    border: solid;
+    border-color: black;
+    padding-top: 15px;
+    padding-left: 15px;
+    border-radius: 20px;
+    border-color: rgb(153, 153, 153);
+}
+.subscribe{
+    font-size: 20px;
+    font-weight: bold;
+    padding-bottom:10px ;
+}
+.subscribe-unlock{
+    font-size: 16px;
+    padding-bottom:10px ;
+    line-height: 1.4;
+}
+.subscribe-button{
+    padding: 10px 15px 10px 15px ;
+    border-radius: 30px;
+    border: none;
+    background-color: rgb(0, 149, 255);
+    color: white;
+    font-size: 15px;
+    font-weight: bold;
+    margin-bottom:10px;
+}
+.forth-column{
+    
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    width: 330px;
+    margin-left: 825px;
+    border: solid;
+    border-color: black;
+    padding-top: 15px;
+    padding-left: 15px;
+    border-radius: 20px;
+    border-color: rgb(153, 153, 153);
+}
+.what{
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+.dhoni-twitter{
+    width: 80px;
+    height: 70px;
+    border-radius: 10px;
+    margin-right: 10px;
+}
+.image-wwe{
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 20px;
+    
+}
+.ms{
+    font-weight: 20px;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+.chennai{
+    font-size: 17px;
+    color: gray;
+}
+.trending{
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+    
+
+}
+.india{
+    font-size: 14px;
+    color: gray;
+}
+.three-dot{
+    margin-right: 17px;
+}
+.hundred{
+    font-size: 16px;
+    font-weight: bold;
+}
+.jio{
+    font-size: 14px;
+    color: gray;
+}
+.show{
+    margin-top: 20px;
+    color: rgb(0, 128, 255);
+    margin-bottom: 10px;
+
+}
+.dhoni-twitter-follow{
+    width: 50px;
+    border-radius: 25px;
+    margin-right: 10px;
+}
+.follow-button{
+    padding: 5px 15px 5px 15px;
+    color: white;
+    font-weight: bold;
+    border: none;
+    background-color: rgb(0, 136, 255);
+    border-radius: 30px;
+}
+.more{
+    font-size: 17px;
+    color: rgb(0, 149, 255);
+    margin-bottom: 20px;
+}

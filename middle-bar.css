@@ -1,0 +1,193 @@
+.middle-bar{
+    display: flex;
+    width: 650px;
+    /* background-color: black; */
+    position: absolute;
+    top: 60px;
+    left: 150px;
+    bottom: 0;
+    height: 3000px;
+    flex-direction: column;
+}
+.header{
+    display: flex;
+    position: relative;
+    position: fixed;
+    top: 0;
+    width: 650px;
+    bottom: 0;
+    left: 150px;
+    font-family: roboto,arial;
+    z-index: 100;
+    
+}
+.header-button{
+    display: flex;
+    position: fixed;
+}
+.foryou{
+    padding: 20px 130.7px 20px 130.7px;
+    border: solid;
+    border-width: 1px;
+    border-right: none;
+    border-color: rgb(153, 153, 153);
+    color: black;
+    font-weight: bold;
+    font-size: 15px;
+    background-color: white;
+    opacity: 0.9;
+}
+.foryou:hover{
+    background-color: rgb(208, 208, 208);
+}
+.following{
+    padding: 20px 130.7px 20px 130.7px;
+    border: solid;
+    border-width: 1px;
+    border-left: none;
+    border-color: rgb(138, 138, 138);
+    color: black;
+    font-weight: bold;
+    font-size: 15px;
+    background-color: white; 
+    opacity: 0.9;
+}
+.following:hover{
+    background-color: rgb(208, 208, 208);
+}
+.first-column{
+display: flex;
+flex-direction: row;
+width: 700px;
+
+
+}
+
+.image{
+    width: 50px;
+    border-radius: 25px;
+    margin-right: 10px;
+}
+.text-input{
+    height: 50px;
+    width: 550px;
+    font-size: 20px;
+    border: none;
+}
+.column-one{
+width: 18px;
+margin-right: 10px;
+}
+.inside-column{
+  
+    display: flex;
+    flex-direction: column;
+    border: solid;
+border-width: 1px;
+border-color: rgb(153, 153, 153);
+
+margin: -1px 0px 0px 0px;
+padding-top: 20px;
+padding-left: 20px;
+border-top: none;
+border-left: none;
+
+}
+.icons-columns{
+    padding-top: 35px;
+    padding-left: 60px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-bottom: 5px;
+
+}
+.post-button{
+    margin-right: 20px;
+  padding: 8px 15px 8px 15px;
+  border: none;
+  color: white;
+  font-weight:bold ;
+  background-color: rgb(0, 157, 255);
+  border-radius: 20px;
+
+}
+.second-column{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: blue;
+    border: solid;
+    border-width: 1px;
+    padding: 15px 0px 15px 0px;
+    font-size: 15px;
+    border-color: rgb(153, 153, 153);
+    border-top: none;
+    border-left: none;
+}
+.column-two-total{
+    display: flex;
+    flex-direction: row;
+    padding-top: 10px;
+    border: solid;
+    border-width: 1px;
+    border-top: none;
+    border-left: none;
+    padding-bottom: 15px;
+    border-color:rgb(153, 153, 153) ;
+    
+}
+.column-two-full{
+    display: flex;
+    font-size: 14px;
+    font-weight: bold;
+    
+}
+.bots{
+    padding-left: 295px;
+    
+}
+.chennal-name{
+    padding-left: 10px;
+}
+.chennal-link{
+    padding-left: 10px;
+    font-family: 'Times New Roman', Times, serif;
+}
+.second-column-image{
+    width: 50px;
+    border-radius: 25px;
+    margin-left: 20px;
+}
+.police-light{
+    width: 25px;
+    height: 25px;
+    margin-left: 10px;
+}
+.discripition{
+    display: flex;
+    flex-direction: row;
+    padding-top: 5px;
+}
+.down-icons-one{
+    width: 20px;
+}
+.down-icons{
+    
+    width: 20px;
+    margin-left: 60px;
+}
+.column-icons{
+    display: flex;
+    flex-direction: row;
+    
+    margin-top: 30px;
+}
+.post-update{
+    width: 450px;
+    border-radius: 20px;
+    box-shadow: 2px 2px 5px rgba(0,0,0,0.3);
+}
+.end{
+    margin-bottom: 10px;
+}
